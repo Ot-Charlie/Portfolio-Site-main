@@ -1,7 +1,33 @@
+.heading {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+  display: flex;
+  align-items: center;
+    padding:auto;
+background-color: pink;
+width: 100%;
+color: white;
+border-bottom: 4px solid darkblue;
+}
+.links {
+ text-align: right;
+}
+img {
+width: 390px;
+height:450px;
+display: inline;
+}
 .design {
-  background-image: url
-    (
-      "https://static.wixstatic.com/media/8a8033_a738085f564f4d43aa34edebaebae5b5~mv2_d_1600_1600_s_2.jpg/v1/fit/w_1000%2Ch_1000%2Cal_c%2Cq_80/file.jpg"
-    );
-  width: 80%;
+    font-family: sans-serif;
+    display: flex;
+   padding-left: 20%;
+   padding-right: 20%;
+  background-color: white;
+  color: black;
+  ;
+}
+footer {
+    background-color: pink; 
+    text-align: center;
+    border-bottom: 5px solid darkblue;
 }
