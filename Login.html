@@ -5,42 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <link href="login.css" rel="stylesheet">
 </head>
-<header>
-    <header>
-        <h1>Charlie's World</h1>
-     <nav>
-          <p><a href="contact.html">CONTACT ME</p></a><p><a href="Registration.html">REGISTRATION</p></a><p><a href="Login.html">LOGIN</p></a>
-         </nav>
-      </header>
-     
-</header>
 <body>
+    <header>
+        <nav>
+         <h1>CHARLIE'S SPACE</h1>
+         <ul>
+          <li><a href="index.html">ABOUT ME</a></li>
+      <li><a href="contact.html">CONTACT ME</a></li>
+      <li><a href="Registration.html">REGISTRATION</a></li>
+      <li><button><a href="Login.html">LOGIN</a></button></li>
+        </ul>
+      </nav>
+      </header>
     <main>
+        <h2>LOGIN DETAILS</h2>
+        <section>
         <form>
             <table>
                 <td>
+                    <div>
         <label for="E-mail">E-mail:</label></td>
         <td>
         <input type="email" id="E-mail" name="E-mail" placeholder="E-mail" required>
        </td>
        </tr>
+    </div>
+    <div>
        <tr>
         <td>
         <label for="pword">Password:</label></td>
         <td>
         <input type="password" id="pword" name="pword" required>
        </td>
-    </table>
-    <div>
-        <input type="submit" value="Sign In">
+    </tr>
 </div>
+</table>
+     <div class="pass">
+        <button class="button" >SIGN IN</button>
+    </div>
+        
+      
+    
+  
+</section>
     </form>
      </main>
-</body>
-<footer>
-    <footer>
+     <footer>
         <p>2022 ALL RIGHTS RESERVED ⓒ</p>
       </footer>
-</footer>
+</body>
 </html>

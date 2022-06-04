@@ -6,35 +6,48 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Me</title>
+  <link href="contact.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <header>
-      <h1>Charlie's World</h1>
-   <nav>
-        <p><a href="contact.html">CONTACT ME</p></a><p><a href="Registration.html">REGISTRATION</p></a><p><a href="Login.html">LOGIN</p></a>
-       </nav>
-    </header>
-   
+    <nav>
+     <h1>CHARLIE'S SPACE</h1>
+     <ul>
+      <li><a href="index.html">ABOUT ME</a></li>
+  <li><a href="contact.html">CONTACT ME</a></li>
+  <li><a href="Registration.html">REGISTRATION</a></li>
+  <li><button><a href="Login.html">LOGIN</a></button></li>
+    </ul>
+  </nav>
   </header>
+  
   <main>
+   <h2>CONTACT FORM</h2>
   <section>
-    <form action="">
-        <label for="fullname">NAME:</label>
-     <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
-     <br></br>
-     <label for="E-mail">E-mail:</label>
-     <input type="email" id="E-mail" name="E-mail" placeholder="E-MAIL" required>
-     <br></br>
-     <label for="message"></label>
-     <textarea id="message" name="message" placeholder="MESSAGE" required></textarea>
-     <br></br>
-     <input type="submit" value="Submit">
+     <form action="">
+      <table>
+        <td>
+        <label for="fullname">NAME:</label></td>
+     <td><input type="text" id="fullname" name="fullname" placeholder="Full Name" required></td>
+     <tr>
+     <td><label for="E-mail">E-mail:</label></td>
+    <td><input type="email" id="E-mail" name="E-mail" placeholder="E-MAIL" required></td>
+    </tr>
+    <tr>
+     <td><label for="message"></label></td>
+    <td><textarea id="message" name="message" placeholder="ENTER YOUR MESSAGE" required></textarea></td>
+    </tr>
+    </table>
+    <div class="pass">
+     <button class="button" >SEND</button>
+      </div>
+    </form>
      </section>
     </main>
-</body>
-<footer>
+  <footer>
     <p>2022 ALL RIGHTS RESERVED ⓒ</p>
   </footer>
+</body>
+
 </html>
