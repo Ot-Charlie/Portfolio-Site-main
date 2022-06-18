@@ -1,6 +1,6 @@
 
 nav{
-    font-family: 'Amatic SC', cursive;
+ font-family: "Big Shoulders Display", cursive;
     background-color: pink;
     height: 80px;
     width: 100%;
@@ -37,7 +37,7 @@ height:450px;
 margin-right: 60%;
 }
 .design {
-    font-family: sans-serif;
+    font-family: "Lexend Deca", sans-serif;
     display: flex;
     padding-left: 20%;
    padding-right: 20%;
@@ -52,7 +52,8 @@ footer {
     text-decoration: none;
     padding-bottom: 10px;
     position: absolute;
-   width:100%
+   width:100%;
+   font-family: "Big Shoulders Display", cursive;
     }
     .button{
         background-color: pink;

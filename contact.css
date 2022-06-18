@@ -1,22 +1,22 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
     padding: 0;
     margin: 0;
   }
+  .charlie{
+    line-height: 80px;
+    font-size: 40px;
+   color: white;
+   padding: 0 100px;}
   nav {
-    font-family: "Amatic SC", cursive;
+    font-family: "Big Shoulders Display", cursive;
     background-color: pink;
     height: 90px;
     position: relative;
     border-bottom: 4px solid darkblue;
   }
   
-  h1 {
-    padding: 0;
-    font-family: "Amatic SC", cursive;
-    color: white;
-    position: absolute;
-  }
+ 
   nav ul li {
     display: inline-block;
     margin: 0 20px;
@@ -35,25 +35,46 @@
     margin-left: 90px;
 }
   body {
-    height: 100%;
-    width: 100%;
-    font-family: sans-serif;
+    font-family: "Lexend Deca", sans-serif;
   }
-  section {
+  form{
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-right: 400px;
     background-color: pink;
-    border-radius: 20px;
-    text-align: center;
-     width:40%;
-     margin-top: 9%;
-    margin-left:28%;
-    margin-bottom: 15%;
-    padding-bottom: 10px;
+    border-radius: 15px;
+    padding-top: 30px;
+  padding-bottom: 50px;
   }
-  table {
-    margin-left: 30%;
-    height: 20vh;
-    font-size: 20px;
-    }
+  .name{
+     margin-left: 200px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .email{
+    margin-left: 196px;
+    margin-top: 10px;
+  }
+  .message{
+  
+    margin-left: 270px;
+  }
+  .send{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    margin-left: 320px;
+    background-color: pink;
+    border-radius: 5px;
+    border-color: pink;
+  }
+  input{
+    border-radius: 5px;
+    padding: 10px;
+  }
+  label{
+    font-size: 15px;
+  }
   
   footer {
     background-color: pink;
@@ -63,14 +84,5 @@
     margin-top: 10%;
     padding: 20px;
   }
-  .button{
-    background-color: palevioletred;
-    color: white;
-    font-size: 20px;
-    border: 0;
+ 
       
-  }
-  .pass{
-    margin-left: 14%;
-   margin-right: 50px;
-   }

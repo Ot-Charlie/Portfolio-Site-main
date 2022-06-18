@@ -6,11 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link href="login.css" rel="stylesheet">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+  rel="stylesheet"
+/>
 </head>
 <body>
     <header>
         <nav>
-         <h1>CHARLIE'S SPACE</h1>
+         <label class="charlie">CHARLIE'S SPACE</label>
          <ul>
           <li><a href="index.html">ABOUT ME</a></li>
       <li><a href="contact.html">CONTACT ME</a></li>
@@ -21,36 +29,21 @@
       </header>
     <main>
         <h2>LOGIN DETAILS</h2>
-        <section>
-        <form>
-            <table>
-                <td>
-                    <div>
-        <label for="E-mail">E-mail:</label></td>
-        <td>
-        <input type="email" id="E-mail" name="E-mail" placeholder="E-mail" required>
-       </td>
-       </tr>
-    </div>
-    <div>
-       <tr>
-        <td>
-        <label for="pword">Password:</label></td>
-        <td>
-        <input type="password" id="pword" name="pword" required>
-       </td>
-    </tr>
-</div>
-</table>
-     <div class="pass">
-        <button class="button" >SIGN IN</button>
-    </div>
-        
-      
-    
-  
-</section>
-    </form>
+        <body>
+            <form id="contact_form" action="#">
+              
+              <div class="email">
+                <label for="email"><span>E-MAIL:</span></label>
+                <input id="email" class="ep" name="email" type="text" value="" size="30" required/>
+              </div>
+             <div class="password">
+              <label for="pword"><span class="pass">Password:</span></label>
+                  <input type="password" id="pword" name="pword" required class="ep">
+              </div>
+              <div class="log">
+               <input id="submit_button" type="submit" value="LOG IN" class="send"/>
+                </div>
+              </form>
      </main>
      <footer>
         <p>2022 ALL RIGHTS RESERVED ⓒ</p>

@@ -7,12 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Me</title>
   <link href="contact.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+  rel="stylesheet"
+/>
 </head>
-
 <body>
   <header>
     <nav>
-     <h1>CHARLIE'S SPACE</h1>
+     <label class="charlie">CHARLIE'S SPACE</label>
      <ul>
       <li><a href="index.html">ABOUT ME</a></li>
   <li><a href="contact.html">CONTACT ME</a></li>
@@ -20,28 +27,25 @@
   <li><button><a href="Login.html">LOGIN</a></button></li>
     </ul>
   </nav>
-  </header>
-  
+  </header>  
   <main>
    <h2>CONTACT FORM</h2>
   <section>
-     <form action="">
-      <table>
-        <td>
-        <label for="fullname">NAME:</label></td>
-     <td><input type="text" id="fullname" name="fullname" placeholder="Full Name" required></td>
-     <tr>
-     <td><label for="E-mail">E-mail:</label></td>
-    <td><input type="email" id="E-mail" name="E-mail" placeholder="E-MAIL" required></td>
-    </tr>
-    <tr>
-     <td><label for="message"></label></td>
-    <td><textarea id="message" name="message" placeholder="ENTER YOUR MESSAGE" required></textarea></td>
-    </tr>
-    </table>
-    <div class="pass">
-     <button class="button" >SEND</button>
+    <form id="contact_form" action="#" >
+      <div class="name">
+        <label for="name">NAME:</label>
+        <input id="name" class="input" name="name" type="text" value="" size="30" required /><br />
+        </div>
+      <div class="email">
+        <label for="email">E-MAIL:</label>
+        <input id="email" class="input" name="email" type="text" value="" size="30" required /><br />
+        </div>
+      <div class="message">
+        <label for="message"></label><br>
+        <textarea id="message" class="input" placeholder="ENTER YOUR MESSAGE HERE" name="message" rows="7" cols="30" required></textarea><br />
       </div>
+        
+        <input id="submit_button" type="submit" value="SEND" class="send"/>
     </form>
      </section>
     </main>
@@ -49,5 +53,4 @@
     <p>2022 ALL RIGHTS RESERVED ⓒ</p>
   </footer>
 </body>
-
 </html>
