@@ -1,54 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Portfolio</title>
   <link href="contact.css" rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap"
     rel="stylesheet"
   />
-  <link
-  href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
-  rel="stylesheet"
-/>
 </head>
 <body>
-  <header>
-    <nav>
-     <label class="charlie">CHARLIE'S SPACE</label>
-     <ul>
-      <li><a href="index.html">ABOUT ME</a></li>
-  <li><a href="contact.html">CONTACT ME</a></li>
-  <li><a href="Registration.html">REGISTRATION</a></li>
-  <li><button><a href="Login.html">LOGIN</a></button></li>
-    </ul>
-  </nav>
-  </header>  
-  <main>
+ <header>
+  <nav>
+   <label class="charlie">CHARLIE'S SPACE</label>
+   <ul class="acrl">
+    <li class="underline"><a href="index.html">ABOUT ME</a></li>
+<li class="underline"><a href="contact.html">CONTACT ME</a></li>
+<li class="underline"><a href="Registration.html">REGISTRATION</a></li>
+<li><button><a href="Login.html">LOGIN</a></button></li>
+  </ul>
+</nav>
+</header>  
+  
    <h2>CONTACT FORM</h2>
-  <section>
-    <form id="contact_form" action="#" >
-      <div class="name">
+   <section>
+    <form id="contact_form" action="#">
+      <div class="nae">
         <label for="name">NAME:</label>
-        <input id="name" class="input" name="name" type="text" value="" size="30" required /><br />
+        <input id="name" class="input" name="name" type="text" value="" size="30" required />
         </div>
       <div class="email">
-        <label for="email">E-MAIL:</label>
-        <input id="email" class="input" name="email" type="text" value="" size="30" required /><br />
+        <label for="email"><span>E-mail:</span></label>
+        <input id="email" class="input" name="email" type="text" value="" size="30" required />
         </div>
       <div class="message">
-        <label for="message"></label><br>
+        <label for="message"></label>
         <textarea id="message" class="input" placeholder="ENTER YOUR MESSAGE HERE" name="message" rows="7" cols="30" required></textarea><br />
       </div>
-        
         <input id="submit_button" type="submit" value="SEND" class="send"/>
     </form>
-     </section>
-    </main>
+  </section>
   <footer>
     <p>2022 ALL RIGHTS RESERVED ⓒ</p>
   </footer>

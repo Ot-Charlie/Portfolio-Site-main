@@ -3,42 +3,43 @@
     padding: 0;
     margin: 0;
   }
+  body{
+    background-image: url("pexels-adonis-arias.jpg");
+    font-family: "Lexend Deca", sans-serif;
+}
   .charlie{
     line-height: 80px;
     font-size: 40px;
-   color: white;
+   color: white; 
    padding: 0 100px;}
-  nav {
+   nav {
     font-family: "Big Shoulders Display", cursive;
     background-color: pink;
-    height: 90px;
-    position: relative;
+    height: 80px;
+    width: 101%;
     border-bottom: 4px solid darkblue;
-  }
-  
- 
-  nav ul li {
-    display: inline-block;
-    margin: 0 20px;
-    line-height: 80px;
   }
   nav ul {
     list-style: none;
     margin-right: 30px;
     float: right;
   }
+  nav ul li {
+    display: inline-block;
+    margin: 5px;
+    line-height: 50px;
+  }
+ 
   nav ul li a {
+    margin: 0 5px;
     text-decoration: rgb(26, 23, 23);
   }
   h2{
     margin-top: 10px;
     margin-left: 90px;
 }
-  body {
-    font-family: "Lexend Deca", sans-serif;
-  }
   form{
-    margin-top: 20px;
+     margin-top: 20px;
     margin-left: 350px;
     margin-right: 400px;
     background-color: pink;
@@ -46,8 +47,8 @@
     padding-top: 30px;
   padding-bottom: 50px;
   }
-  .name{
-     margin-left: 200px;
+  .nae{
+     margin-left: 190px;
     padding: 5px;
     border-radius: 5px;
   }
@@ -56,8 +57,8 @@
     margin-top: 10px;
   }
   .message{
-  
-    margin-left: 270px;
+    margin-top: 10px;
+   margin-left: 253px;
   }
   .send{
     padding-left: 40px;
@@ -84,5 +85,72 @@
     margin-top: 10%;
     padding: 20px;
   }
- 
-      
+  @media (max-width: 400px) {
+    nav {
+      font-family: "Big Shoulders Display", cursive;
+      background-color: pink;
+      height: 80px;
+      width: 258%;
+      border-bottom: 4px solid darkblue;
+    }   
+    nav ul li {
+      display: block;
+      margin-top: 10px;
+    }
+    .acrl {
+      margin-top: 100px;
+    }
+    form {
+      margin-top: 121px;
+      margin-left: 176px;
+      margin-right: -372px;
+      background-color: pink;
+      border-radius: 20px;
+    }
+   
+  .nae{
+  margin-top: 13px;
+      margin-left: 120px;
+      padding: 5px;
+     border-radius: 5px;
+   }
+   .email{
+    margin-left: 125px;
+    margin-top: 10px;
+    
+  }
+  
+  .message{
+  margin-left: 185px;
+  margin-top: 20px;
+  }
+  .send{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    margin-left: 230px;
+    background-color: pink;
+    border-radius: 5px;
+    border-color: pink;
+  }
+  footer {
+    margin-top: 30%;
+    width: 258%;
+    background-color: pink;
+    text-align: center;
+    border-bottom: 5px solid darkblue;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-family: "Big Shoulders Display", cursive;
+  }
+  .underline {
+    border-bottom: 1px solid black;
+  }
+
+ .name{
+   margin-left: 1px;
+      padding: 5px;
+     border-radius: 5px;
+   }
+
+  }

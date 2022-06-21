@@ -1,61 +1,108 @@
-
-nav{
- font-family: "Big Shoulders Display", cursive;
-    background-color: pink;
-    height: 80px;
-    width: 100%;
-   border-bottom: 4px solid darkblue;
+body {
+  background-image: url("pexels-adonis-arias.jpg");
+}
+nav {
+  font-family: "Big Shoulders Display", cursive;
+  background-color: pink;
+  height: 80px;
+  width: 101%;
+  border-bottom: 4px solid darkblue;
 }
 
- label{
-    line-height: 80px;
-   font-size: 40px;
-color: white;
-padding: 0 100px;
+label {
+  line-height: 80px;
+  font-size: 40px;
+  color: white;
+  padding: 0 100px;
 }
-nav ul{
-    list-style: none;
-    margin-right: 30px;
-    float: right;
-  
+nav ul {
+  list-style: none;
+  margin-right: 30px;
+  float: right;
 }
-nav ul li{
-    display:inline-block;
-    margin:5px; 
- 
+nav ul li {
+  display: inline-block;
+  margin: 5px;
 }
-nav ul li a{
-    margin:0 5px;
-    text-decoration:rgb(26, 23, 23);
+nav ul li a {
+  margin: 0 5px;
+  text-decoration: rgb(26, 23, 23);
 }
-ul li a:active{ 
-    font-size:40px;
+ul li a:active {
+  font-size: 40px;
 }
 img {
-width: 390px;
-height:450px;
-margin-right: 60%;
+  width: 390px;
+  height: 450px;
+  margin-right: 60%;
 }
 .design {
-    font-family: "Lexend Deca", sans-serif;
-    display: flex;
-    padding-left: 20%;
-   padding-right: 20%;
-  background-color: white;
-  color: black;
- 
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  padding-left: 20%;
+  padding-right: 20%;
+  /* background-color: white;  */
 }
 footer {
-    background-color: pink; 
+  background-color: pink;
+  text-align: center;
+  border-bottom: 5px solid darkblue;
+  text-decoration: none;
+  padding-bottom: 10px;
+  position: absolute;
+  width: 100%;
+  font-family: "Big Shoulders Display", cursive;
+}
+.button {
+  background-color: pink;
+  color: white;
+}
+@media (max-width: 400px) {
+  nav {
+    font-family: "Big Shoulders Display", cursive;
+    background-color: pink;
+    height: 80px;
+    width: 258%;
+    border-bottom: 4px solid darkblue;
+  }
+  .design {
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: black;
+  }
+  nav ul li {
+    display: block;
+    margin-top: 10px;
+  }
+  img {
+    width: 390px;
+    height: 450px;
+    margin-left: 78%;
+    margin-top: 80%;
+  }
+  section {
+    margin-top: 40%;
+    margin-left: 60%;
+    width: 258%;
+  }
+  h3 {
+    margin-top: 5%;
+  }
+  footer {
+    margin-top: 30%;
+    width: 247%;
+    background-color: pink;
     text-align: center;
     border-bottom: 5px solid darkblue;
     text-decoration: none;
     padding-bottom: 10px;
-    position: absolute;
-   width:100%;
-   font-family: "Big Shoulders Display", cursive;
-    }
-    .button{
-        background-color: pink;
-        color: white;
-    }
+    font-family: "Big Shoulders Display", cursive;
+  }
+  .acrl {
+    margin-top: 100px;
+  }
+  .underline {
+    border-bottom: 1px solid black;
+  }
+}

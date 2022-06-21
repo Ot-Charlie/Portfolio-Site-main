@@ -36,6 +36,7 @@ h2{
 }
 body {
   font-family: "Lexend Deca", sans-serif;
+  background-image: url("pexels-adonis-arias.jpg");
   }
   form{
     margin-top: 100px;
@@ -78,4 +79,51 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+@media (max-width: 400px) {
+  nav {
+    font-family: "Big Shoulders Display", cursive;
+    background-color: pink;
+    height: 80px;
+    width: 258%;
+    border-bottom: 4px solid darkblue;
+  }
+nav ul li {
+    display: block;
+    line-height: 40px;
+  }
+  .acrl {
+    margin-top: 90px;
+  }
+  .underline {
+    border-bottom: 1px solid black;
+  }
+  footer {
+    margin-top: 30%;
+    width: 258%;
+    background-color: pink;
+    text-align: center;
+    border-bottom: 5px solid darkblue;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Big Shoulders Display", cursive;
+  }
+  form {
+    margin-top: 144px;
+    background-color: pink;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 488px;
+    margin-left: 256px;
+}
+section {
+  background-color: pink;
+  width: 587px;
+  height: 305px;
+  margin-top: 108px;
+  margin-left: 185px;
+  border-radius: 15px;
+}
 }
