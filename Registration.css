@@ -73,7 +73,7 @@ footer {
     text-align: center;
     border-bottom: 5px solid darkblue;
 }
-@media (max-width: 400px) {
+@media (max-width: 430px) {
   nav {
     font-family: "Big Shoulders Display", cursive;
     background-color: pink;

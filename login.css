@@ -80,7 +80,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
-@media (max-width: 400px) {
+@media (max-width: 430px) {
   nav {
     font-family: "Big Shoulders Display", cursive;
     background-color: pink;
